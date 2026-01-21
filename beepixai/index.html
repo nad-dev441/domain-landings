@@ -3,12 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BeePixAi.com | Premium Generative AI Domain For Sale</title>
-    
-    <!-- SEO Optimization -->
-    <meta name="description" content="Premium domain BeePixAi.com is available for acquisition. Ideal for AI Image Generation, Computer Vision SaaS, Creative Tech, and Automation Startups.">
-    <meta name="keywords" content="AI Domain, Artificial Intelligence, Generative AI, Image Processing, Tech Startup, SaaS Branding, Premium Domain, BeePixAi, Computer Vision, Marketing Tool">
+
+    <title>BeePixAi.com – Premium AI Domain Name For Sale</title>
+
+    <!-- SEO -->
+    <meta name="description" content="BeePixAi.com is a premium .com domain name for sale. Perfect for Generative AI, Image Generation, Computer Vision SaaS, and AI startups. Secure purchase via GoDaddy Afternic.">
+    <meta name="keywords" content="AI domain for sale, premium AI domain, generative AI domain, brandable domain, BeePixAi, SaaS startup domain">
     <meta name="robots" content="index, follow">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "BeePixAi.com Domain Name",
+      "description": "BeePixAi.com is a premium generative AI domain name available for immediate purchase.",
+      "brand": {
+        "@type": "Brand",
+        "name": "BeePixAi"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://forsale.godaddy.com/forsale/beepixai.com",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,16 +40,12 @@
         :root {
             --bg-color: #02040a;
             --card-bg: rgba(15, 23, 42, 0.6);
-            --primary: #3b82f6; 
-            --accent: #8b5cf6; 
+            --primary: #3b82f6;
+            --accent: #8b5cf6;
             --text-main: #ffffff;
             --text-muted: #94a3b8;
             --border: rgba(255, 255, 255, 0.1);
-            
-            /* Market Colors */
-            --sedo-color: #ff5e3a;
-            --afternic-color: #00b4d8;
-            --spaceship-color: #7c3aed;
+            --cta: #00b4d8;
         }
 
         body {
@@ -36,359 +53,195 @@
             color: var(--text-main);
             font-family: 'Inter', sans-serif;
             margin: 0;
-            line-height: 1.6;
-            overflow-x: hidden;
             min-height: 100vh;
+            overflow-x: hidden;
         }
 
-        /* --- ANIMATED BACKGROUND --- */
+        /* Background */
         .bg-grid {
             position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background-image: 
-                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
             background-size: 50px 50px;
             z-index: -2;
-            perspective: 500px;
-            transform-style: preserve-3d;
             animation: gridMove 20s linear infinite;
         }
 
         @keyframes gridMove {
-            0% { transform: translateY(0); }
-            100% { transform: translateY(50px); }
+            from { transform: translateY(0); }
+            to { transform: translateY(50px); }
         }
 
-        /* Pulsing Glow Effect */
         .glow {
-            position: absolute;
+            position: fixed;
             width: 600px;
             height: 600px;
-            background: radial-gradient(circle, rgba(59,130,246,0.2) 0%, rgba(2,4,10,0) 70%);
+            background: radial-gradient(circle, rgba(59,130,246,0.25), transparent 70%);
             top: -200px;
             left: 50%;
             transform: translateX(-50%);
             z-index: -1;
-            pointer-events: none;
-            animation: pulse 6s ease-in-out infinite;
-        }
-
-        @keyframes pulse {
-            0%, 100% { opacity: 0.5; transform: translateX(-50%) scale(1); }
-            50% { opacity: 1; transform: translateX(-50%) scale(1.2); }
         }
 
         .container {
             max-width: 1000px;
-            margin: 0 auto;
+            margin: auto;
             padding: 40px 20px;
-            position: relative;
-            z-index: 1;
         }
 
-        /* --- HEADER --- */
+        /* Header */
         header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 60px;
             border-bottom: 1px solid var(--border);
             padding-bottom: 20px;
-            backdrop-filter: blur(5px);
-        }
-
-        .logo {
-            font-weight: 800;
-            font-size: 1.2rem;
-            letter-spacing: -0.5px;
-        }
-
-        .tag {
-            background: rgba(59, 130, 246, 0.1);
-            color: var(--primary);
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: 600;
-            border: 1px solid rgba(59, 130, 246, 0.2);
-            box-shadow: 0 0 10px rgba(59, 130, 246, 0.2);
-            animation: float 3s ease-in-out infinite;
-        }
-
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-5px); }
-        }
-
-        /* --- HERO SECTION --- */
-        .hero {
-            text-align: center;
             margin-bottom: 60px;
         }
 
-        /* Animated Text Gradient */
+        .sale-indicator {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(59, 130, 246, 0.15);
+            color: #3b82f6;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.8rem;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            box-shadow: 0 0 12px rgba(59, 130, 246, 0.25);
+        }
+
+        .sale-indicator .dot {
+            color: #22c55e;
+            animation: pulseDot 1.6s infinite;
+        }
+
+        @keyframes pulseDot {
+            0% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(1.4); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+
+        /* Hero */
         h1 {
             font-size: clamp(3rem, 9vw, 5.5rem);
             margin: 0;
-            line-height: 1.1;
             font-weight: 800;
             letter-spacing: -2px;
-            background: linear-gradient(to right, #ffffff 20%, #3b82f6 40%, #8b5cf6 60%, #ffffff 80%);
-            background-size: 200% auto;
+            background: linear-gradient(to right, #ffffff, #3b82f6, #8b5cf6, #ffffff);
+            background-size: 200%;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             animation: shine 5s linear infinite;
         }
 
         @keyframes shine {
-            to { background-position: 200% center; }
+            to { background-position: 200%; }
         }
 
-        .hero p {
-            font-size: 1.25rem;
-            color: var(--text-muted);
-            max-width: 600px;
-            margin: 20px auto 40px auto;
-        }
-
-        /* --- MARKETPLACE SECTION --- */
-        .market-section {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid var(--border);
-            border-radius: 20px;
-            padding: 40px;
-            max-width: 700px;
-            margin: 0 auto 80px auto;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-            transition: transform 0.3s;
-        }
-
-        .market-section:hover {
-            transform: translateY(-5px);
-            border-color: rgba(255, 255, 255, 0.2);
-        }
-
-        .market-label {
-            display: block;
-            margin-bottom: 25px;
-            font-size: 0.9rem;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            font-weight: 700;
+        .hero {
             text-align: center;
-        }
-
-        .cta-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-        }
-
-        .btn-market {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            border-radius: 12px;
-            text-decoration: none;
-            color: white;
-            font-weight: 600;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            border: 1px solid rgba(255,255,255,0.05);
-            background: linear-gradient(145deg, #151921, #0f1219);
-            position: relative;
-            overflow: hidden;
-        }
-
-        /* Hover Glow Effect for Buttons */
-        .btn-market::before {
-            content: '';
-            position: absolute;
-            top: 0; left: -100%;
-            width: 100%; height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
-            transition: 0.5s;
-        }
-
-        .btn-market:hover::before {
-            left: 100%;
-        }
-
-        .btn-market:hover {
-            transform: translateY(-5px) scale(1.02);
-            background: #1e2430;
-        }
-
-        .btn-market span { font-size: 0.85rem; opacity: 0.7; margin-bottom: 6px; }
-        .btn-market strong { font-size: 1.2rem; letter-spacing: 0.5px; }
-
-        .btn-afternic:hover { border-color: var(--afternic-color); box-shadow: 0 10px 30px -10px rgba(0, 180, 216, 0.5); }
-        .btn-sedo:hover { border-color: var(--sedo-color); box-shadow: 0 10px 30px -10px rgba(255, 94, 58, 0.5); }
-        .btn-spaceship:hover { border-color: var(--spaceship-color); box-shadow: 0 10px 30px -10px rgba(124, 58, 237, 0.5); }
-
-        /* --- CARDS & KEYWORDS --- */
-        .grid-section {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
             margin-bottom: 60px;
         }
 
-        .card {
-            background: var(--card-bg);
+        .hero p {
+            color: var(--text-muted);
+            font-size: 1.2rem;
+            max-width: 650px;
+            margin: 20px auto;
+        }
+
+        /* Market */
+        .market-section {
+            background: rgba(255,255,255,0.03);
             border: 1px solid var(--border);
-            padding: 35px;
-            border-radius: 16px;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-            backdrop-filter: blur(5px);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 80px;
         }
 
-        .card:hover {
-            border-color: var(--primary);
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px -15px rgba(59, 130, 246, 0.3);
-            background: rgba(15, 23, 42, 0.8);
-        }
-
-        .card h3 { margin-top: 0; font-size: 1.2rem; color: #fff; }
-        .card p { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 20px; }
-        
-        .keyword-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .kw {
-            font-size: 0.75rem;
-            background: rgba(255, 255, 255, 0.05);
-            color: #cbd5e1;
-            padding: 6px 12px;
-            border-radius: 6px;
-            border: 1px solid transparent;
+        .btn-market {
+            display: inline-block;
+            padding: 22px 40px;
+            border-radius: 14px;
+            text-decoration: none;
+            color: white;
+            font-weight: 800;
+            background: #111827;
+            border: 1px solid rgba(255,255,255,0.08);
             transition: 0.3s;
+            box-shadow: 0 0 30px rgba(0,180,216,0.15);
         }
 
-        .card:hover .kw {
-            border-color: rgba(59, 130, 246, 0.3);
-            background: rgba(59, 130, 246, 0.1);
+        .btn-market:hover {
+            transform: translateY(-4px);
+            border-color: var(--cta);
+            box-shadow: 0 0 40px rgba(0,180,216,0.4);
         }
 
-        /* --- FOOTER --- */
         footer {
             border-top: 1px solid var(--border);
-            padding-top: 40px;
             text-align: center;
+            padding-top: 40px;
             color: var(--text-muted);
             font-size: 0.9rem;
         }
-        
-        .contact-link {
-            color: var(--text-main);
-            text-decoration: none;
-            border-bottom: 1px dotted #fff;
-            transition: 0.2s;
-        }
-        .contact-link:hover { color: var(--primary); border-color: var(--primary); }
-
     </style>
 </head>
+
 <body>
 
-    <!-- Animated Background Elements -->
-    <div class="bg-grid"></div>
-    <div class="glow"></div>
+<div class="bg-grid"></div>
+<div class="glow"></div>
 
-    <div class="container">
-        <header>
-            <div class="logo">BeePixAi.com</div>
-            <div class="tag">● Available For Sale</div>
-        </header>
+<div class="container">
 
-        <section class="hero">
-            <h1>BeePixAi.com</h1>
-            <p>Define your future in Artificial Intelligence. <br>A premium, brandable asset optimized for the Generative AI revolution.</p>
-        </section>
+<header>
+    <strong>BeePixAi.com</strong>
+    <span class="sale-indicator">
+        <span class="dot">●</span> Domain For Sale
+    </span>
+</header>
 
-        <!-- Marketplace Section -->
-        <section class="market-section">
-            <span class="market-label">Secure Acquisition Available via</span>
-            
-            <div class="cta-grid">
-                <!-- Afternic Link -->
-                <a href="https://forsale.godaddy.com/forsale/beepixai.com?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&" class="btn-market btn-afternic">
-                    <span>Buy instantly on</span>
-                    <strong>Afternic</strong>
-                </a>
+<section class="hero">
+    <h1>BeePixAi.com</h1>
 
-                <!-- Spaceship Link (Remplacez le lien si nécessaire) -->
-                <a href="https://www.spaceship.com/domain-search/?query=beepixai.com&beast=false&tab=domains" class="btn-market btn-spaceship">
-                    <span>Acquire via</span>
-                    <strong>Spaceship</strong>
-                </a>
+    <!-- Invisible SEO text -->
+    <p style="display:none;">
+        BeePixAi.com is a premium AI domain name for sale. Available for immediate purchase via GoDaddy Afternic.
+    </p>
 
-                <!-- Sedo Link -->
-                <a href="https://sedo.com/search/details/?domain=beepixai.com" class="btn-market btn-sedo">
-                    <span>Purchase on</span>
-                    <strong>Sedo</strong>
-                </a>
-            </div>
-            
-            <div style="margin-top: 25px; text-align: center; font-size: 0.9rem; color: var(--text-muted);">
-                Questions? <a href="mailto:nadhirdomains@gmail.com" class="contact-link">Contact Owner</a>
-            </div>
-        </section>
+    <p>
+        Own a premium, brandable <strong>.com</strong> domain built for the future of Artificial Intelligence,
+        Generative AI, and Visual Technology startups.
+    </p>
+</section>
 
-        <!-- Value Proposition & Keywords Section -->
-        <div class="grid-section">
-            
-            <!-- Card 1 -->
-            <div class="card">
-                <h3>🚀 Startup Ready</h3>
-                <p>Short, memorable, and tech-forward. "Pix" implies visual data, while "Ai" cements your industry status.</p>
-                <div class="keyword-list">
-                    <span class="kw">SaaS</span>
-                    <span class="kw">Tech</span>
-                    <span class="kw">Startup</span>
-                </div>
-            </div>
+<section class="market-section">
+    <p style="letter-spacing:2px;text-transform:uppercase;font-size:0.8rem;color:#94a3b8;">
+        Secure Purchase
+    </p>
 
-            <!-- Card 2 -->
-            <div class="card">
-                <h3>💡 Perfect Use Cases</h3>
-                <p>Ideal for businesses in the visual technology sector looking for instant authority.</p>
-                <div class="keyword-list">
-                    <span class="kw">Generative AI</span>
-                    <span class="kw">Image Generator</span>
-                    <span class="kw">Computer Vision</span>
-                    <span class="kw">NFT Art</span>
-                    <span class="kw">Marketing Automation</span>
-                </div>
-            </div>
+    <a href="https://forsale.godaddy.com/forsale/beepixai.com"
+       class="btn-market"
+       target="_blank" rel="noopener">
+        Buy This Domain Now
+    </a>
 
-            <!-- Card 3 -->
-            <div class="card">
-                <h3>💎 Asset Value</h3>
-                <p>Two-syllable brandability (Bee-Pix) with the high-value "AI" suffix. A .com domain is the gold standard.</p>
-                <div class="keyword-list">
-                    <span class="kw">Premium Domain</span>
-                    <span class="kw">Brandable</span>
-                    <span class="kw">Global</span>
-                </div>
-            </div>
+    <p style="margin-top:25px;color:#94a3b8;">
+        Questions? <a href="mailto:nadhirdomains@gmail.com" style="color:white;">Contact Owner</a>
+    </p>
+</section>
 
-        </div>
+<footer>
+    © 2026 BeePixAi.com — Premium Domain Name For Sale
+</footer>
 
-        <footer>
-            <p>&copy; 2026 BeePixAi.com. All rights reserved.</p>
-        </footer>
-    </div>
-
+</div>
 </body>
 </html>
